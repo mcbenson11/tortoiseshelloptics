@@ -93,6 +93,11 @@ div {
   width: 5rem;
 }
 
+.info {
+  display: flex;
+  justify-content: center;
+}
+
 .infoblock {
   width: 35%;
   margin: 0 2.5%;
@@ -154,6 +159,7 @@ div {
 
   .headerbackground {
     height: 17rem;
+    background-position: 20%;
   }
 
   .banner {
@@ -163,6 +169,39 @@ div {
     padding: 1rem 0;
     text-align: center;
     width: 100%;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .infotitle {
+    width: 100%
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .infoblock {
+    width: 95%;
+    margin: 0 auto 4rem auto;
+  }
+
+  .infoblock p {
+    font-size: 0.77rem;
+  }
+
+  .footer {
+    height: 9.5rem;
+    margin: 0;
+  }
+
+  .footer span {
+    display: none;
+  }
+
+  .footer img {
+    padding: 0;
+    margin: auto;
   }
 
 }
