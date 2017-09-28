@@ -7,9 +7,9 @@ body {
   font-family: Helvetica;
 }
 
-div {
+/*div {
   border: 1px solid red;
-}
+}*/
 
 .container {
   width: 960px;
@@ -36,6 +36,7 @@ div {
   padding: 1rem 0;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
 }
 
 .header img {
@@ -173,10 +174,11 @@ div {
 
   .info {
     flex-direction: column;
+    margin: 0;
   }
 
   .infotitle {
-    width: 100%
+    width: 100%;
     margin: 0 auto;
     text-align: center;
   }
