@@ -7,9 +7,9 @@ body {
   font-family: Helvetica;
 }
 
-/*div {
+div {
   border: 1px solid red;
-}*/
+}
 
 .container {
   width: 960px;
@@ -32,7 +32,7 @@ body {
   font-size: 1rem;
   color: white;
   background-color: cadetblue;
-  margin-top: 0;
+  margin-top: 1rem;
   padding: 1rem 0;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +50,7 @@ body {
 .headerbackground {
   background-image: url("../images/glasses-bg.png");
   background-size: cover;
+  background-position: center;
   height: 30rem;
   margin: 0 auto;
 }
@@ -83,20 +84,11 @@ body {
   margin: 3rem;
 }
 
-.papericon,
-.rulericon,
-.truckicon {
-  margin: 0 3rem;
-}
-
 .papericon {
   width: 3.5rem;
 }
 
-.rulericon {
-  width: 5rem;
-}
-
+.rulericon,
 .truckicon {
   width: 5rem;
 }
