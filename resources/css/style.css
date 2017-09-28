@@ -37,6 +37,7 @@ body {
   justify-content: space-between;
   align-items: center;
   position: absolute;
+  width: 960px;
 }
 
 .header img {
@@ -46,6 +47,10 @@ body {
 
 .header li {
   padding: 0 1rem;
+}
+
+.navsmall {
+  visibility: hidden;
 }
 
 .headerbackground {
@@ -125,6 +130,8 @@ body {
   padding: 4rem 1rem 4rem 4rem;
 }
 
+/*Tablet*/
+
 @media only screen and (max-width: 1000px) {
 
   .container {
@@ -133,6 +140,7 @@ body {
 
   .header {
     margin: 0;
+    width: 100%;
   }
 
   .headerbackground {
@@ -141,12 +149,14 @@ body {
 
   .banner {
     font-size: 1.33rem;
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-right: 2rem;
     padding: 0.75rem 4rem;
   }
 
 }
+
+/*Mobile*/
 
 @media only screen and (max-width: 470px) {
 
@@ -156,6 +166,7 @@ body {
 
   .header {
     margin: 0;
+    width: 100%;
   }
 
   .headerbackground {
@@ -163,13 +174,30 @@ body {
     background-position: 20%;
   }
 
+  .navsmall {
+    visibility: visible;
+  }
+
   .banner {
     font-size: 1rem;
-    margin-top: 9rem;
+    margin-top: 12rem;
     margin-right: 0;
     padding: 1rem 0;
     text-align: center;
     width: 100%;
+  }
+
+  .icons {
+    flex-direction: column;
+    margin: 3.77rem auto;
+    align-items: center;
+    font-size: 0.77rem;
+  }
+
+  .service {
+    margin: 1.54rem;
+    height: 6rem;
+    justify-content: space-around;
   }
 
   .info {
@@ -178,8 +206,8 @@ body {
   }
 
   .infotitle {
-    width: 100%;
-    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 1rem;
     text-align: center;
   }
 
